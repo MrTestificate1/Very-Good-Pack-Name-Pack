@@ -26,8 +26,22 @@ recipes.remove(<thermalfoundation:material:321>);
 recipes.remove(<thermalfoundation:material:320>);
 recipes.remove(<thermalfoundation:material:33>);
 recipes.remove(<thermalfoundation:material:32>);
+recipes.remove(<ic2:dust:4>);// Copper Dust
+recipes.remove(<ic2:dust:7>);// Gold Dust
+recipes.remove(<ic2:dust:8>);// Iron Dust
+recipes.remove(<ic2:dust:10>);// Lead Dust
+recipes.remove(<ic2:dust:14>);// Silver Dust
+recipes.remove(<ic2:dust:17>);// Tin Dust
 recipes.remove(<mysticalagriculture:iridium_seeds>);
 recipes.remove(<ic2:misc_resource:1>);
+//FURNACE ORE REMOVAL
+furnace.remove(<*>, <ore:oreCopper>);// Copper Ore
+furnace.remove(<*>, <ore:oreGold>);// Gold Ore
+furnace.remove(<*>, <ore:oreIron>);// Iron Ore
+furnace.remove(<*>, <ore:oreLead>);// Lead Ore
+furnace.remove(<*>, <ore:oreSilver>);// Silver Ore
+furnace.remove(<*>, <ore:oreTin>);// Tin Ore
+
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -43,4 +57,10 @@ recipes.remove(<ic2:misc_resource:1>);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ic2:dust:4>,[[<ore:dustTinyCopper>,<ore:dustTinyCopper>,null],[<ore:dustTinyCopper>,<ore:dustTinyCopper>,null],[null,null,null]]);// Copper Dust
+recipes.addShaped(<ic2:dust:7>,[[<ore:dustTinyGold>,<ore:dustTinyGold>,null],[<ore:dustTinyGold>,<ore:dustTinyGold>,null],[null,null,null]]);// Gold Dust
+recipes.addShaped(<ic2:dust:8>,[[<ore:dustTinyIron>,<ore:dustTinyIron>,null],[<ore:dustTinyIron>,<ore:dustTinyIron>,null],[null,null,null]]);// Iron Dust
+recipes.addShaped(<ic2:dust:10>,[[<ore:dustTinyLead>,<ore:dustTinyLead>,null],[<ore:dustTinyLead>,<ore:dustTinyLead>,null],[null,null,null]]);// Lead Dust
+recipes.addShaped(<ic2:dust:14>,[[<ore:dustTinySilver>,<ore:dustTinySilver>,null],[<ore:dustTinySilver>,<ore:dustTinySilver>,null],[null,null,null]]);// Silver Dust
+recipes.addShaped(<ic2:dust:17>,[[<ore:dustTinyTin>,<ore:dustTinyTin>,null],[<ore:dustTinyTin>,<ore:dustTinyTin>,null],[null,null,null]]);// Tin Dust
 
