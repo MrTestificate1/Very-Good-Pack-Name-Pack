@@ -57,10 +57,10 @@ furnace.remove(<*>, <ore:oreTin>);// Tin Ore
 
 // ================================================================================
 //#MARKER ADD SHAPED
-recipes.addShaped(<ic2:dust:4>,[[<ore:dustTinyCopper>,<ore:dustTinyCopper>,null],[<ore:dustTinyCopper>,<ore:dustTinyCopper>,null],[null,null,null]]);// Copper Dust
-recipes.addShaped(<ic2:dust:7>,[[<ore:dustTinyGold>,<ore:dustTinyGold>,null],[<ore:dustTinyGold>,<ore:dustTinyGold>,null],[null,null,null]]);// Gold Dust
-recipes.addShaped(<ic2:dust:8>,[[<ore:dustTinyIron>,<ore:dustTinyIron>,null],[<ore:dustTinyIron>,<ore:dustTinyIron>,null],[null,null,null]]);// Iron Dust
-recipes.addShaped(<ic2:dust:10>,[[<ore:dustTinyLead>,<ore:dustTinyLead>,null],[<ore:dustTinyLead>,<ore:dustTinyLead>,null],[null,null,null]]);// Lead Dust
-recipes.addShaped(<ic2:dust:14>,[[<ore:dustTinySilver>,<ore:dustTinySilver>,null],[<ore:dustTinySilver>,<ore:dustTinySilver>,null],[null,null,null]]);// Silver Dust
-recipes.addShaped(<ic2:dust:17>,[[<ore:dustTinyTin>,<ore:dustTinyTin>,null],[<ore:dustTinyTin>,<ore:dustTinyTin>,null],[null,null,null]]);// Tin Dust
+recipes.addShaped(<thermalfoundation:material:64>,[[<ore:dustTinyCopper>,<ore:dustTinyCopper>,null],[<ore:dustTinyCopper>,<ore:dustTinyCopper>,null],[null,null,null]]);// Copper Dust
+recipes.addShaped(<thermalfoundation:material:1>,[[<ore:dustTinyGold>,<ore:dustTinyGold>,null],[<ore:dustTinyGold>,<ore:dustTinyGold>,null],[null,null,null]]);// Gold Dust
+recipes.addShaped(<thermalfoundation:material>,[[<ore:dustTinyIron>,<ore:dustTinyIron>,null],[<ore:dustTinyIron>,<ore:dustTinyIron>,null],[null,null,null]]);// Iron Dust
+recipes.addShaped(<thermalfoundation:material:67>,[[<ore:dustTinyLead>,<ore:dustTinyLead>,null],[<ore:dustTinyLead>,<ore:dustTinyLead>,null],[null,null,null]]);// Lead Dust
+recipes.addShaped(<thermalfoundation:material:66>,[[<ore:dustTinySilver>,<ore:dustTinySilver>,null],[<ore:dustTinySilver>,<ore:dustTinySilver>,null],[null,null,null]]);// Silver Dust
+recipes.addShaped(<thermalfoundation:material:65>,[[<ore:dustTinyTin>,<ore:dustTinyTin>,null],[<ore:dustTinyTin>,<ore:dustTinyTin>,null],[null,null,null]]);// Tin Dust
 
