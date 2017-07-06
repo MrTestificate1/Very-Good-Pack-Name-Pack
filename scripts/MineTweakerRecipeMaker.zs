@@ -34,6 +34,7 @@ recipes.remove(<ic2:dust:14>);// Silver Dust
 recipes.remove(<ic2:dust:17>);// Tin Dust
 recipes.remove(<mysticalagriculture:iridium_seeds>);
 recipes.remove(<ic2:misc_resource:1>);
+
 //FURNACE ORE REMOVAL
 furnace.remove(<*>, <ore:oreCopper>);// Copper Ore
 furnace.remove(<*>, <ore:oreGold>);// Gold Ore
