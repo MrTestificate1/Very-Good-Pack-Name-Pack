@@ -1,4 +1,13 @@
 import mods.botania.ManaInfusion;
+import mods.botania.Apothecary;
+import mods.botania.RuneAltar;
+
+//RECIPES
+recipes.remove(<botania:runeAltar>);
+
+recipes.addShaped(<botania:runeAltar>,[[<embers:brickCaminite>,<embers:brickCaminite>,<embers:brickCaminite>],[<botania:livingrock>,<botania:manaResource:2>,<botania:livingrock>],[<botania:livingrock>,<botania:livingrock>,<botania:livingrock>]]);
+
+recipes.addShaped(<botania:runeAltar>,[[<embers:brickCaminite>,<embers:brickCaminite>,<embers:brickCaminite>],[<botania:livingrock>,<botania:manaResource:1>,<botania:livingrock>],[<botania:livingrock>,<botania:livingrock>,<botania:livingrock>]]);
 
 //MANA INFUSION RECIPES
 
@@ -13,3 +22,20 @@ ManaInfusion.addInfusion(<ic2:dust:23>*2,<ore:oreLead>,500);// 1 Lead Ore -> 2 L
 ManaInfusion.addInfusion(<ic2:dust:26>*2,<ore:oreSilver>,500);// 1 Silver Ore -> 2 Silver Tiny Dust
 ManaInfusion.addInfusion(<ic2:dust:28>*2,<ore:oreTin>,500);// 1 Tin Ore -> 2 Tin Tiny Dust
 ManaInfusion.addInfusion(<botania:manaResource>,<embers:ingotDawnstone>,3000);
+
+
+//PETAL APOTHECARY
+
+
+//RUNIC ALTAR
+
+RuneAltar.removeRecipe(<botania:rune:1>);
+RuneAltar.removeRecipe(<botania:rune>);
+RuneAltar.removeRecipe(<botania:rune:2>);
+RuneAltar.removeRecipe(<botania:rune:3>);
+
+
+RuneAltar.addRecipe(<botania:rune:1>*2,[<minecraft:netherbrick>,<minecraft:gunpowder>,<minecraft:nether_wart>,<botania:manaResource>,<botania:manaResource:23>,<embers:shardEmber>],5200);
+RuneAltar.addRecipe(<botania:rune>*2,[<minecraft:fishing_rod>,<minecraft:reeds>,<minecraft:dye:15>,<botania:manaResource>,<botania:manaResource:23>,<embers:blendCaminite>],5200);
+RuneAltar.addRecipe(<botania:rune:2>*2,[<minecraft:brown_mushroom>,<minecraft:coal_block>,<embers:blockCaminiteBrick>,<botania:manaResource>,<botania:manaResource:23>],5200);
+RuneAltar.addRecipe(<botania:rune:3>*2,[<minecraft:string>,<minecraft:feather>,<minecraft:carpet>,<botania:manaResource>,<botania:manaResource:23>,<embers:dustAsh>],5200);
