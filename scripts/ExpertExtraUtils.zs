@@ -11,6 +11,7 @@ Resonator.add(<actuallyadditions:itemMisc:5>,<minecraft:quartz>,1500,true);
 //------------------------------------------------------------------------------------------------------------
 //REMOVE RECIPES
 recipes.remove(<extrautils2:resonator>);
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}));
 
 
 //ADD RECIPES
