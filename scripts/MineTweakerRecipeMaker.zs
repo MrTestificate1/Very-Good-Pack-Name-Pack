@@ -42,6 +42,7 @@ furnace.remove(<*>, <ore:oreIron>);// Iron Ore
 furnace.remove(<*>, <ore:oreLead>);// Lead Ore
 furnace.remove(<*>, <ore:oreSilver>);// Silver Ore
 furnace.remove(<*>, <ore:oreTin>);// Tin Ore
+furnace.remove(<*>,<actuallyadditions:blockMisc:3>);//Black Quartz Ore
 
 
 // ================================================================================
