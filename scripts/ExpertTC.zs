@@ -20,4 +20,14 @@ mods.tconstruct.Smeltery.addMelting(<liquid:silver> * 144, <thermalfoundation:or
 mods.tconstruct.Smeltery.addMelting(<liquid:lead> * 144, <thermalfoundation:ore:3>, 450);
 mods.tconstruct.Smeltery.addMelting(<liquid:gold> * 144, <minecraft:gold_ore>, 450);
 mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <minecraft:iron_ore>, 450);
+//------------------------------------------------------------------------------------------------------------
 
+//RECIPES
+//------------------------------------------------------------------------------------------------------------
+//REMOVE RECIPES
+recipes.remove(<tconstruct:seared:3>);
+
+//ADD RECIPES
+recipes.addShaped(<tconstruct:seared:3>,[[<embers:brickCaminite>,<minecraft:netherbrick>,null],
+										 [<minecraft:brick>,<tconstruct:materials>,null],
+										 [null,null,null]]);

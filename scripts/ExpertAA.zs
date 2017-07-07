@@ -22,7 +22,20 @@ Crusher.addRecipe(<thermalfoundation:ore:1>,<thermalfoundation:material:65>,<ic2
 //RECIPES
 //------------------------------------------------------------------------------------------------------------
 //REMOVE RECIPES
+recipes.remove(<actuallyadditions:blockAtomicReconstructor>);
+recipes.remove(<actuallyadditions:blockMisc:9>);
+recipes.remove(<actuallyadditions:blockGrinder>);
 
 //ADD RECIPES
+recipes.addShaped(<actuallyadditions:blockAtomicReconstructor>,[[<embers:ingotDawnstone>,<minecraft:redstone>,<embers:ingotDawnstone>],
+																[<minecraft:redstone>,<botania:spreader:1>,<minecraft:redstone>],
+																[<embers:ingotDawnstone>,<actuallyadditions:blockMisc:9>,<embers:ingotDawnstone>]]);
 
+recipes.addShaped(<actuallyadditions:blockMisc:9>,[[<ore:plateIron>,<minecraft:stick>,<ore:plateIron>],
+												   [<minecraft:stick>,<actuallyadditions:itemMisc:5>,<minecraft:stick>],
+												   [<ore:plateIron>,<minecraft:stick>,<ore:plateIron>]]);
+
+recipes.addShaped(<actuallyadditions:blockGrinder>,[[<actuallyadditions:itemCrystal>,<minecraft:flint>,<embers:blockCaminiteBrick>],
+													[<actuallyadditions:itemMisc:7>,<actuallyadditions:blockMisc:9>,<actuallyadditions:itemMisc:7>],
+													[<embers:blockCaminiteBrick>,<minecraft:flint>,<actuallyadditions:itemCrystal>]]);
 //------------------------------------------------------------------------------------------------------------
