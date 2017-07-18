@@ -26,6 +26,9 @@ recipes.remove(<actuallyadditions:blockAtomicReconstructor>);
 recipes.remove(<actuallyadditions:blockMisc:9>);
 recipes.remove(<actuallyadditions:blockGrinder>);
 recipes.remove(<actuallyadditions:blockFurnaceDouble>);
+recipes.remove(<actuallyadditions:blockCoalGenerator>); //REMOVE COAL GEN
+recipes.remove(<actuallyadditions:itemDrill:3>);// REMOVE DRILL
+recipes.remove(<actuallyadditions:itemMisc:16>);//REMOVE DRILL CORE
 
 //ADD RECIPES
 recipes.addShaped(<actuallyadditions:blockAtomicReconstructor>,[[<embers:ingotDawnstone>,<minecraft:redstone>,<embers:ingotDawnstone>],
@@ -43,4 +46,19 @@ recipes.addShaped(<actuallyadditions:blockGrinder>,[[<actuallyadditions:itemCrys
 recipes.addShaped(<actuallyadditions:blockFurnaceDouble>,[[<embers:crystalEmber>,<actuallyadditions:itemMisc:7>,<embers:blockCaminiteBrick>],
 													[<minecraft:furnace>,<actuallyadditions:blockMisc:9>,<minecraft:furnace>],
 													[<embers:blockCaminiteBrick>,<actuallyadditions:itemMisc:7>,<embers:crystalEmber>]]);
+
+recipes.addShaped(<actuallyadditions:blockCoalGenerator>,[[<ore:cobblestone>,<ore:coal>,<ore:cobblestone>],
+														  [<embers:blockCaminiteBrick>,<actuallyadditions:blockMisc:9>,<embers:blockCaminiteBrick>],
+														  [<ore:cobblestone>,<embers:crystalEmber>,<ore:cobblestone>]]);
+
+recipes.addShaped(<actuallyadditions:itemDrill:3>.withTag({Energy: 0}),[[<actuallyadditions:itemCrystalEmpowered:2>,<actuallyadditions:itemCrystalEmpowered:2>,<actuallyadditions:itemCrystalEmpowered:2>],
+																		[<actuallyadditions:itemMisc:8>,<actuallyadditions:itemMisc:16>,<actuallyadditions:itemMisc:8>],
+																		[<actuallyadditions:blockCrystal:5>,<actuallyadditions:blockCrystal:5>,<actuallyadditions:blockCrystal:5>]]); //ADD DRILL
+
+recipes.addShaped(<actuallyadditions:itemMisc:16>,[[<ic2:plate:12>,<actuallyadditions:itemMisc:7>,<ic2:plate:12>],
+												   [<actuallyadditions:itemMisc:8>,<actuallyadditions:itemCrystal>,<actuallyadditions:itemMisc:8>],
+												   [<ic2:plate:12>,<actuallyadditions:itemMisc:7>,<ic2:plate:12>]]); //ADD DRILL CORE
+
+recipes.addShapeless(<actuallyadditions:itemDrill:3>,[<ic2:diamond_drill:26>]);
+
 //------------------------------------------------------------------------------------------------------------

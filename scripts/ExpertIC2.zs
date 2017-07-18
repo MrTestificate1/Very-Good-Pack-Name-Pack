@@ -23,6 +23,8 @@ mods.botania.RuneAltar.addRecipe(<ic2:crafting:1>, [<ic2:cable>.withTag({type: 0
 
 //REMOVE RECIPE
 recipes.remove(<ic2:forge_hammer>);
+recipes.remove(<ic2:diamond_drill>.withTag({charge:0}));
+
 
 //ADD RECIPE
 recipes.addShaped(<ic2:forge_hammer>,[[<ore:ingotSteel>,<ore:ingotSteel>,null],
@@ -31,4 +33,6 @@ recipes.addShaped(<ic2:forge_hammer>,[[<ore:ingotSteel>,<ore:ingotSteel>,null],
 
 recipes.addShaped(<ic2:forge_hammer>,[[null,<ore:ingotSteel>,<ore:ingotSteel>],
 									  [<minecraft:stick>,<minecraft:stick>,<ore:ingotSteel>],
-									  [null,<ore:ingotSteel>,<ore:ingotSteel>]]);								  
+									  [null,<ore:ingotSteel>,<ore:ingotSteel>]]);
+
+recipes.addShapeless(<ic2:diamond_drill:26>,[<actuallyadditions:itemDrill:3>]);								  
