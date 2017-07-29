@@ -29,7 +29,7 @@ recipes.remove(<actuallyadditions:blockFurnaceDouble>);
 recipes.remove(<actuallyadditions:blockCoalGenerator>); //REMOVE COAL GEN
 recipes.remove(<actuallyadditions:itemDrill:3>);// REMOVE DRILL
 recipes.remove(<actuallyadditions:itemMisc:16>);//REMOVE DRILL CORE
-
+recipes.remove(<actuallyadditions:itemMisc:8>);//ADVANCED COILS
 //ADD RECIPES
 recipes.addShaped(<actuallyadditions:blockAtomicReconstructor>,[[<embers:ingotDawnstone>,<minecraft:redstone>,<embers:ingotDawnstone>],
 																[<minecraft:redstone>,<botania:spreader:1>,<minecraft:redstone>],
@@ -61,4 +61,7 @@ recipes.addShaped(<actuallyadditions:itemMisc:16>,[[<ic2:plate:12>,<actuallyaddi
 
 recipes.addShapeless(<actuallyadditions:itemDrill:3>,[<ic2:diamond_drill:26>]);
 
+recipes.addShaped(<actuallyadditions:itemMisc:8>,[[<actuallyadditions:itemCrystal>,<calculator:EnrichedGoldIngot>,<actuallyadditions:itemCrystal>],
+												  [<calculator:EnrichedGoldIngot>,<actuallyadditions:itemMisc:7>,<calculator:EnrichedGoldIngot>],
+												  [<actuallyadditions:itemCrystal>,<calculator:EnrichedGoldIngot>,<actuallyadditions:itemCrystal>]]); //ADVANCED COIL
 //------------------------------------------------------------------------------------------------------------
