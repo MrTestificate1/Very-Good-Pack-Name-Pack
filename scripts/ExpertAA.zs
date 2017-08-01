@@ -51,7 +51,7 @@ recipes.addShaped(<actuallyadditions:blockCoalGenerator>,[[<ore:cobblestone>,<or
 														  [<embers:blockCaminiteBrick>,<actuallyadditions:blockMisc:9>,<embers:blockCaminiteBrick>],
 														  [<ore:cobblestone>,<embers:crystalEmber>,<ore:cobblestone>]]);
 
-recipes.addShaped(<actuallyadditions:itemDrill:3>.withTag({Energy: 0}),[[<actuallyadditions:itemCrystalEmpowered:2>,<actuallyadditions:itemCrystalEmpowered:2>,<actuallyadditions:itemCrystalEmpowered:2>],
+recipes.addShaped(<actuallyadditions:itemDrill:3>.withTag({Energy: 0}),[[<actuallyadditions:blockCrystal:2>,<actuallyadditions:blockCrystal:2>,<actuallyadditions:blockCrystal:2>],
 																		[<actuallyadditions:itemMisc:8>,<actuallyadditions:itemMisc:16>,<actuallyadditions:itemMisc:8>],
 																		[<actuallyadditions:blockCrystal:5>,<actuallyadditions:blockCrystal:5>,<actuallyadditions:blockCrystal:5>]]); //ADD DRILL
 
