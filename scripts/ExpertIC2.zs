@@ -40,6 +40,9 @@ recipes.remove(<ic2:crafting:5>); //COIL
 recipes.remove(<ic2:tool_box>);//TOOL BOX
 recipes.remove(<ic2:te:43>);//COMPRESSOR
 recipes.remove(<ic2:te:11>);//WIND MILL
+recipes.remove(<ic2:te:9>);//STIRLING GENERATOR
+recipes.remove(<ic2:te:54>);//INDUCTION FURNACE
+
 //ADD RECIPE
 recipes.addShaped(<ic2:forge_hammer>,[[<ore:ingotSteel>,<ore:ingotSteel>,null],
 									  [<ore:ingotSteel>,<minecraft:stick>,<minecraft:stick>],
@@ -76,5 +79,13 @@ recipes.addShaped(<ic2:crafting:5>,[[<ic2:cable>.withTag({type: 0 as byte, insul
 recipes.addShaped(<ic2:tool_box>,[[null,null,null],
 							      [<ic2:casing>,<ironchest:BlockIronChest:3>,<ic2:casing>],
 							      [<ic2:casing:5>,<ic2:casing:5>,<ic2:casing:5>]]); //TOOL BOX
+
+recipes.addShaped(<ic2:te:9> ,[[<ic2:dust:11>,<ic2:crafting:7>,<ic2:dust:11>],
+							   [<ic2:casing:5>,<ic2:te:3>,<ic2:casing:5>],
+							   [<ic2:dust:11>,<ic2:casing:5>,<ic2:dust:11>]]);//STIRLING GENERATOR
+
+recipes.addShaped(<ic2:te:54>,[[<ic2:dust:11>,<ore:ingotBronze>,<ic2:dust:11>],
+							   [<ore:ingotBronze>,<ic2:te:44>,<ore:ingotBronze>],
+							   [<ic2:dust:11>,<ic2:resource:13>,<ic2:dust:11>]]);//INDUCTION FURNACE
 
 recipes.addShapeless(<ic2:diamond_drill:26>,[<actuallyadditions:itemDrill:3>]);								  

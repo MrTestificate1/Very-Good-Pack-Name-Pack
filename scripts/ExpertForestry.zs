@@ -42,6 +42,12 @@ Carpenter.addRecipe(<forestry:chipsets:3>,[[<actuallyadditions:itemCrystal>,<cal
 Squeezer.removeRecipe(<liquid:seed.oil>, [<actuallyadditions:itemCanolaSeed>]);
 Squeezer.removeRecipe(<liquid:canolaoil>, [<actuallyadditions:itemMisc:13>]);
 //ADD RECIPES
-
 Squeezer.addRecipe(<liquid:seed.oil>*3,[<actuallyadditions:itemCanolaSeed>],20,<actuallyadditions:itemMisc:21> % 50);
 Squeezer.addRecipe(<liquid:canolaoil>*80,[<actuallyadditions:itemMisc:13>],20,<actuallyadditions:itemMisc:21> % 50);
+
+
+//MOISTENER
+//REMOVE RECIPES
+
+//ADD RECIPES
+Moistener.addRecipe(<minecraft:grass>, <minecraft:dirt>, 5000);

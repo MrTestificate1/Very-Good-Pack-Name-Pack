@@ -30,6 +30,9 @@ recipes.remove(<actuallyadditions:blockCoalGenerator>); //REMOVE COAL GEN
 recipes.remove(<actuallyadditions:itemDrill:3>);// REMOVE DRILL
 recipes.remove(<actuallyadditions:itemMisc:16>);//REMOVE DRILL CORE
 recipes.remove(<actuallyadditions:itemMisc:8>);//ADVANCED COILS
+recipes.remove(<actuallyadditions:blockDisplayStand>);//DISPLAY STAND
+recipes.remove(<actuallyadditions:blockEmpowerer>);
+
 //ADD RECIPES
 recipes.addShaped(<actuallyadditions:blockAtomicReconstructor>,[[<embers:ingotDawnstone>,<minecraft:redstone>,<embers:ingotDawnstone>],
 																[<minecraft:redstone>,<botania:spreader:1>,<minecraft:redstone>],
@@ -64,4 +67,12 @@ recipes.addShapeless(<actuallyadditions:itemDrill:3>,[<ic2:diamond_drill:26>]);
 recipes.addShaped(<actuallyadditions:itemMisc:8>,[[<actuallyadditions:itemCrystal>,<calculator:EnrichedGoldIngot>,<actuallyadditions:itemCrystal>],
 												  [<calculator:EnrichedGoldIngot>,<actuallyadditions:itemMisc:7>,<calculator:EnrichedGoldIngot>],
 												  [<actuallyadditions:itemCrystal>,<calculator:EnrichedGoldIngot>,<actuallyadditions:itemCrystal>]]); //ADVANCED COIL
+
+recipes.addShaped(<actuallyadditions:blockDisplayStand>,[[<ic2:crafting:5>,<actuallyadditions:itemMisc:8>,<ic2:crafting:5>],
+														 [<actuallyadditions:blockTestifiBucksGreenWall>,<actuallyadditions:blockTestifiBucksGreenWall>,<actuallyadditions:blockTestifiBucksGreenWall>],
+														 [<actuallyadditions:blockTestifiBucksWhiteWall>,<ic2:te:73>,<actuallyadditions:blockTestifiBucksWhiteWall>]]);//DISPLAY STAND
+
+recipes.addShaped(<actuallyadditions:blockEmpowerer>,[[<ic2:dust:11>,<actuallyadditions:itemCrystal>,<ic2:dust:11>],
+													  [<ic2:advanced_charging_re_battery>.withTag({charge: 400000.0}),<actuallyadditions:itemBatteryDouble>.withTag({Energy: 2000000}),<ic2:advanced_charging_re_battery>.withTag({charge: 400000.0})],
+													  [<actuallyadditions:blockMisc:9>,<actuallyadditions:blockDisplayStand>,<actuallyadditions:blockMisc:9>]]);
 //------------------------------------------------------------------------------------------------------------
