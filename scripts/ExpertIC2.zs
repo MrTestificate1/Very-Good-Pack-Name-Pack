@@ -42,6 +42,11 @@ recipes.remove(<ic2:te:43>);//COMPRESSOR
 recipes.remove(<ic2:te:11>);//WIND MILL
 recipes.remove(<ic2:te:9>);//STIRLING GENERATOR
 recipes.remove(<ic2:te:54>);//INDUCTION FURNACE
+recipes.remove(<ic2:te:74>);//MFE
+recipes.remove(<ic2:lapotron_crystal:26>);//LAPOTRON CRYSTAL
+recipes.remove(<ic2:te:61>);//MASS FABRICATOR
+recipes.remove(<ic2:te:39>);//TELEPORTER
+recipes.remove(<ic2:te:63>);//REPLICATOR
 
 //ADD RECIPE
 recipes.addShaped(<ic2:forge_hammer>,[[<ore:ingotSteel>,<ore:ingotSteel>,null],
@@ -87,5 +92,25 @@ recipes.addShaped(<ic2:te:9> ,[[<ic2:dust:11>,<ic2:crafting:7>,<ic2:dust:11>],
 recipes.addShaped(<ic2:te:54>,[[<ic2:dust:11>,<ore:ingotBronze>,<ic2:dust:11>],
 							   [<ore:ingotBronze>,<ic2:te:44>,<ore:ingotBronze>],
 							   [<ic2:dust:11>,<ic2:resource:13>,<ic2:dust:11>]]);//INDUCTION FURNACE
+
+recipes.addShaped(<ic2:te:74>,[[<enderio:itemPowerConduit:1>,<ic2:energy_crystal>.withTag({charge: 1000000.0}),<enderio:itemPowerConduit:1>],
+							   [<ic2:energy_crystal>.withTag({charge: 1000000.0}),<ic2:resource:12>,<ic2:energy_crystal>.withTag({charge: 1000000.0})],
+							   [<enderio:itemPowerConduit:1>,<ic2:energy_crystal>.withTag({charge: 1000000.0}),<enderio:itemPowerConduit:1>]]);//MFE
+
+recipes.addShaped(<ic2:lapotron_crystal:26>,[[<ore:dustLapis>,<ore:circuitAdvanced>,<ore:dustLapis>],
+											 [<galacticraftcore:basic_item:14>,<ic2:energy_crystal:26>,<galacticraftcore:basic_item:14>],
+											 [<ore:dustLapis>,<ore:circuitAdvanced>,<ore:dustLapis>]]);//LAPOTRON CRYSTAL
+
+recipes.addShaped(<ic2:te:61>,[[<galacticraftcore:item_basic_moon>,<ic2:crafting:2>,<galacticraftcore:item_basic_moon>],
+							   [<ic2:resource:13>,<ic2:lapotron_crystal:26>,<ic2:resource:13>],
+							   [<galacticraftcore:item_basic_moon>,<ic2:crafting:2>,<galacticraftcore:item_basic_moon>]]);//MASS FABRICATOR
+
+recipes.addShaped(<ic2:te:39>,[[<ic2:crafting:2>,<enderio:blockTravelAnchor>,<ic2:crafting:2>],
+							   [<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}),<ic2:resource:13>,<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte})],
+							   [<ic2:crafting:2>,<galacticraftcore:basic_item:14>,<ic2:crafting:2>]]);//TELEPORTER
+
+recipes.addShaped(<ic2:te:63>,[[<galacticraftcore:basic_block_moon:14>,<ic2:glass>,<galacticraftcore:basic_block_moon:14>],
+							   [<ic2:te:39>,<ic2:te:39>,<ic2:te:39>],
+							   [<ic2:te:79>,<ic2:te:74>,<ic2:te:79>]]);//REPLICATOR
 
 recipes.addShapeless(<ic2:diamond_drill:26>,[<actuallyadditions:itemDrill:3>]);								  

@@ -51,6 +51,7 @@ furnace.remove(<*>,<actuallyadditions:blockMisc:3>);//Black Quartz Ore
 // ================================================================================
 //#MARKER REMOVE SHAPED
 
+
 // ================================================================================
 //#MARKER ADD
 
@@ -59,6 +60,8 @@ furnace.remove(<*>,<actuallyadditions:blockMisc:3>);//Black Quartz Ore
 
 // ================================================================================
 //#MARKER ADD SHAPED
+
+
 recipes.addShaped(<thermalfoundation:material:64>,[[<ore:dustTinyCopper>,<ore:dustTinyCopper>,null],[<ore:dustTinyCopper>,<ore:dustTinyCopper>,null],[null,null,null]]);// Copper Dust
 recipes.addShaped(<thermalfoundation:material:1>,[[<ore:dustTinyGold>,<ore:dustTinyGold>,null],[<ore:dustTinyGold>,<ore:dustTinyGold>,null],[null,null,null]]);// Gold Dust
 recipes.addShaped(<thermalfoundation:material>,[[<ore:dustTinyIron>,<ore:dustTinyIron>,null],[<ore:dustTinyIron>,<ore:dustTinyIron>,null],[null,null,null]]);// Iron Dust
