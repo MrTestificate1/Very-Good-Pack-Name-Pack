@@ -5,6 +5,7 @@ import mods.botania.RuneAltar;
 //RECIPES
 recipes.remove(<botania:runeAltar>);//RUNIC ALTAR
 recipes.remove(<botania:flightTiara>);//FLUGEL TIARA
+recipes.remove(<botania:spreader:0>);//MANA SPREADER
 recipes.addShaped(<botania:runeAltar>,[[<embers:brickCaminite>,<embers:brickCaminite>,<embers:brickCaminite>],[<botania:livingrock>,<botania:manaResource:2>,<botania:livingrock>],[<botania:livingrock>,<botania:livingrock>,<botania:livingrock>]]);
 
 recipes.addShaped(<botania:runeAltar>,[[<embers:brickCaminite>,<embers:brickCaminite>,<embers:brickCaminite>],[<botania:livingrock>,<botania:manaResource:1>,<botania:livingrock>],[<botania:livingrock>,<botania:livingrock>,<botania:livingrock>]]);
@@ -12,6 +13,54 @@ recipes.addShaped(<botania:runeAltar>,[[<embers:brickCaminite>,<embers:brickCami
 recipes.addShaped(<botania:flightTiara>,[[<botania:manaResource:5>,<botania:manaResource:5>,<botania:manaResource:5>],
 									[<botania:manaResource:7>,<botania:manaResource:5>,<botania:manaResource:7>],
 									[<galacticraftcore:item_basic_moon:2>,<botania:manaResource:15>,<galacticraftcore:item_basic_moon:2>]]);//FLUGEL TIARA
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:0>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:1>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:2>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:3>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:4>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:5>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:6>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:7>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:8>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:9>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:10>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:11>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:12>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:13>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:14>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
+recipes.addShaped(<botania:spreader:0>,[[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>],
+									[<botania:livingwood:0>,<botania:petal:15>,null],
+									[<botania:livingwood:0>,<botania:livingwood:0>,<botania:livingwood:0>]]);//MANA SPREADER
 //MANA INFUSION RECIPES
 
 //REMOVE INFUSION
