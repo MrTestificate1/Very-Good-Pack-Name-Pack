@@ -3,12 +3,15 @@ import mods.botania.Apothecary;
 import mods.botania.RuneAltar;
 
 //RECIPES
-recipes.remove(<botania:runeAltar>);
-
+recipes.remove(<botania:runeAltar>);//RUNIC ALTAR
+recipes.remove(<botania:flightTiara>);//FLUGEL TIARA
 recipes.addShaped(<botania:runeAltar>,[[<embers:brickCaminite>,<embers:brickCaminite>,<embers:brickCaminite>],[<botania:livingrock>,<botania:manaResource:2>,<botania:livingrock>],[<botania:livingrock>,<botania:livingrock>,<botania:livingrock>]]);
 
 recipes.addShaped(<botania:runeAltar>,[[<embers:brickCaminite>,<embers:brickCaminite>,<embers:brickCaminite>],[<botania:livingrock>,<botania:manaResource:1>,<botania:livingrock>],[<botania:livingrock>,<botania:livingrock>,<botania:livingrock>]]);
 
+recipes.addShaped(<botania:flightTiara>,[[<botania:manaResource:5>,<botania:manaResource:5>,<botania:manaResource:5>],
+									[<botania:manaResource:7>,<botania:manaResource:5>,<botania:manaResource:7>],
+									[<galacticraftcore:item_basic_moon:2>,<botania:manaResource:15>,<galacticraftcore:item_basic_moon:2>]]);//FLUGEL TIARA
 //MANA INFUSION RECIPES
 
 //REMOVE INFUSION

@@ -26,7 +26,7 @@ mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <minecraft:iron_ore>, 4
 //------------------------------------------------------------------------------------------------------------
 //REMOVE RECIPES
 recipes.remove(<tconstruct:seared:3>);
-
+recipes.remove(<tconstruct:cast_custom:3>);
 //ADD RECIPES
 recipes.addShaped(<tconstruct:seared:3>,[[<embers:brickCaminite>,<minecraft:netherbrick>,null],
 										 [<minecraft:brick>,<tconstruct:materials>,null],

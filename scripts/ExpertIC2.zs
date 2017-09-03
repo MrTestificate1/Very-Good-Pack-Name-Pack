@@ -39,7 +39,6 @@ recipes.remove(<ic2:te:3>); //GENERATOR
 recipes.remove(<ic2:crafting:5>); //COIL
 recipes.remove(<ic2:tool_box>);//TOOL BOX
 recipes.remove(<ic2:te:43>);//COMPRESSOR
-recipes.remove(<ic2:te:11>);//WIND MILL
 recipes.remove(<ic2:te:9>);//STIRLING GENERATOR
 recipes.remove(<ic2:te:54>);//INDUCTION FURNACE
 recipes.remove(<ic2:te:74>);//MFE
@@ -47,7 +46,8 @@ recipes.remove(<ic2:lapotron_crystal:26>);//LAPOTRON CRYSTAL
 recipes.remove(<ic2:te:61>);//MASS FABRICATOR
 recipes.remove(<ic2:te:39>);//TELEPORTER
 recipes.remove(<ic2:te:63>);//REPLICATOR
-
+recipes.remove(<ic2:te:78>);//MV-TRANSFORMER
+recipes.remove(<ic2:jetpack_electric>);//ELECTRIC JETPACK
 //ADD RECIPE
 recipes.addShaped(<ic2:forge_hammer>,[[<ore:ingotSteel>,<ore:ingotSteel>,null],
 									  [<ore:ingotSteel>,<minecraft:stick>,<minecraft:stick>],
@@ -113,4 +113,9 @@ recipes.addShaped(<ic2:te:63>,[[<galacticraftcore:basic_block_moon:14>,<ic2:glas
 							   [<ic2:te:39>,<ic2:te:39>,<ic2:te:39>],
 							   [<ic2:te:79>,<ic2:te:74>,<ic2:te:79>]]);//REPLICATOR
 
-recipes.addShapeless(<ic2:diamond_drill:26>,[<actuallyadditions:itemDrill:3>]);								  
+recipes.addShapeless(<ic2:diamond_drill:26>,[<actuallyadditions:itemDrill:3>]);//DIAMOND DRILL		
+
+recipes.addShaped(<ic2:te:78>,[[null,<enderio:itemPowerConduit:2>,null],
+							   [<galacticraftcore:basic_item:14>,<ic2:resource:13>,<galacticraftcore:basic_item:14>],
+							   [null,<enderio:itemPowerConduit:2>,null]]);//REPLICATOR	
+recipes.addShapeless(<ic2:jetpack_electric>,[<simplyjetpacks:itemJetpack:2>]);//ELECTRIC JETPACK					  

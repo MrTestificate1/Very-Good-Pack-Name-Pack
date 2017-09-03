@@ -9,7 +9,7 @@ recipes.remove(<environmentaltech:controller_solar_1>);//SOLAR CONTROLLER T1
 recipes.remove(<environmentaltech:controller_void_ore_miner_1>);//VOID ORE MINER T1
 recipes.remove(<environmentaltech:laser_core>);//LASER CORE
 recipes.remove(<environmentaltech:controller_void_res_miner_1>);//VOID RESOURCE MINER T1
-
+recipes.remove(<environmentaltech:modifier_flight>);//FLIGHT MODIFIER
 //ADD RECIPES
 recipes.addShaped(<environmentaltech:solar_1>,[[<environmentaltech:glass_clear>,<environmentaltech:glass_clear>,<environmentaltech:glass_clear>],
 											   [<environmentaltech:photovoltaic_cell>,<environmentaltech:photovoltaic_cell>,<environmentaltech:photovoltaic_cell>],
@@ -30,3 +30,6 @@ recipes.addShaped(<environmentaltech:laser_core>,[[<environmentaltech:glass_clea
 recipes.addShaped(<environmentaltech:controller_void_res_miner_1>,[[<enderio:blockIngotStorage:1>,<minecraft:end_stone>,<enderio:blockIngotStorage:1>],
 																   [<enderio:blockIngotStorage:1>,<environmentaltech:lens>,<enderio:blockIngotStorage:1>],
 																   [<minecraft:mossy_cobblestone>,<environmentaltech:laser_core>,<minecraft:netherrack>]]);//VOID RESOURCE MINER T1
+recipes.addShaped(<environmentaltech:modifier_flight>,[[<environmentaltech:mica>,<extrautils2:angelring>,<environmentaltech:mica>],
+												[<environmentaltech:launcher_1>,<environmentaltech:modifier_core>,<environmentaltech:launcher_1>],
+												[<environmentaltech:mica>,<environmentaltech:launcher_1>,<environmentaltech:mica>]]);//FLIGHT MODIFIER

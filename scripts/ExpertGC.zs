@@ -10,6 +10,7 @@ recipes.remove(<galacticraftcore:machine2>);//ELECTRIC COMPRESSOR
 recipes.remove(<galacticraftcore:rocket_workbench>);//NASA WORKBENCH
 recipes.remove(<galacticraftcore:rocket_fins>);//ROCKET FINS
 recipes.remove(<galacticraftcore:engine>);//ROCKET ENGINE
+recipes.remove(<galacticraftplanets:carbon_fragments>);//FRAMGENTED CARBON
 
 //ADD RECIPES
 recipes.addShaped(<galacticraftcore:machine2:4>,[[<enderio:itemAlloy:6>,<enderio:itemRedstoneConduit>,<enderio:itemAlloy:6>],
@@ -36,4 +37,8 @@ recipes.addShaped(<galacticraftcore:engine>,[[<galacticraftcore:heavy_plating>,<
 											 [<galacticraftcore:heavy_plating>,<galacticraftcore:air_vent>,<galacticraftcore:heavy_plating>],
 											 [<enderio:blockCombustionGenerator>,<enderio:itemRedstoneConduit>,<enderio:blockCombustionGenerator>]]);//ROCKET ENGINE
 
+recipes.addShaped(<galacticraftcore:dungeonfinder>,[[null,<galacticraftcore:basic_block_moon:14>,null],
+											 [<galacticraftplanets:mars:7>,<galacticraftplanets:basic_item_venus:2>,<galacticraftplanets:mars:7>],
+											 [null,<galacticraftcore:basic_block_moon:14>,null]]);
+recipes.addShapeless(<galacticraftplanets:carbon_fragments>*8,[<extraplanets:tier4_items:5>]);
 //------------------------------------------------------------------------------------------------------------

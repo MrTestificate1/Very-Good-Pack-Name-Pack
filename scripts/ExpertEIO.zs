@@ -9,7 +9,7 @@ recipes.remove(<enderio:itemBasicCapacitor>);
 recipes.remove(<enderio:blockAlloySmelter>);//ALLOY SMELTER
 recipes.remove(<enderio:blockSagMill>);//SAG MILL
 recipes.remove(<enderio:blockTravelAnchor>);//TRAVEL ANCHOR
-
+recipes.remove(<enderio:blockFarmStation>);//FARMING STATION
 //ADD RECIPES
 recipes.addShaped(<enderio:itemBasicCapacitor>,[[null,<calculator:EnrichedGoldIngot>,<ic2:dust:13>],
 												[<calculator:EnrichedGoldIngot>,<ore:ingotCopper>,<calculator:EnrichedGoldIngot>],
@@ -29,4 +29,8 @@ recipes.addShaped(<enderio:blockTravelAnchor>,[[<galacticraftcore:item_basic_moo
 
 mods.actuallyadditions.Empowerer.addRecipe(<ic2:resource:13>,<enderio:itemMachinePart>, <immersiveengineering:metal:8>, <enderio:itemBasicCapacitor>,<enderio:itemBasicCapacitor>,
 <immersiveengineering:metal:8>, 1000, 5000);
+
+recipes.addShaped(<enderio:blockFarmStation>,[[<enderio:itemAlloy:0>,<actuallyadditions:blockFarmer>,<enderio:itemAlloy:0>],
+											   [<enderio:itemAlloy:0>,<enderio:itemMachinePart:0>,<enderio:itemAlloy:0>],
+											   [<enderio:itemMaterial:5>,<enderio:itemFrankenSkull:1>,<enderio:itemMaterial:5>]]);//FARMING STATION
 //------------------------------------------------------------------------------------------------------------
